@@ -48,7 +48,7 @@ module.exports = {
       filename: "remoteEntry.js",
       remotes: {
         device: "device@[deviceURL]/deviceEntry.js",
-        complex: "complex@http://localhost:8082/complexEntry.js",
+        complex: "complex@[complexURL]/complexEntry.js",
       },
       exposes: {},
       shared: {
